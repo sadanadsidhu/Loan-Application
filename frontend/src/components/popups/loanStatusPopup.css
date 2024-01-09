@@ -1,0 +1,32 @@
+.loanStatusPopup {
+    position: fixed;
+    top: 60px;
+    left: 55%;
+    width: 40%;
+    height: 80%;
+    /* transform: translate(50%, -42%); */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  .loanStatusPopupContnet{
+    max-height: 90%;
+    /* overflow-y: auto; */
+  }
+  @media screen and (max-width:1150px) {
+    .loanStatusPopup{
+      left: 40%;
+      top: 20px;
+      width: 60%;
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .loanStatusPopup{
+        left: 39%;
+        top: 20px;
+        width: 60%;
+        padding: 10px;
+    }
+  }

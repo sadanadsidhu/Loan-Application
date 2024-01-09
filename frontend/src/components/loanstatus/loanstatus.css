@@ -1,0 +1,156 @@
+/* LoanStatus.css (Create a new file with this name in the same directory as your component) */
+/* body{
+  background-color: red;
+} */
+.LoanStatuswrapper{
+  /* height: 100%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* background-color: #2196f3; */
+}
+.LoanStausContainer{
+  background-color: #ddd;
+  height: 100%;
+  padding:auto;
+  width: 100%;
+  /* margin: 4%;  */
+   padding: 10% 2%;
+  box-shadow: 6px 3px 7px rgba(69, 68, 68, 0.733);
+   /* border: 2px 2px 2px solid black;  */
+ }
+ .loan-st{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 900;
+ }
+.loan-status-i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    /* background-color: #45a049; */
+}
+.loan-am{
+  font-size: 35px;
+  font-weight: 1000;
+}
+.tr-staus{
+  background-color: green;
+  color: whitesmoke;
+}
+.loan-status {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    /* margin: 20px auto; */
+  }
+  .status-table{
+    width: 100%;
+    height: 50px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  p {
+    color: #555;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  button {
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* margin: 5px; */
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Button Styles for Different Status */
+  button.pending {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  button.approved {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button.pay {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .link {
+    /* margin-top: 20px; */
+    font-size: 14px;
+    color: #2196f3;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+  }
+  .loanStatusBtn{
+    background-color: "#2196f3";
+  }
+  table{
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 2px solid #441717;
+    padding: 8px;
+    /* text-align: left; */
+  
+  }
+  .th-body{
+    background-color: #4caf50;
+  }
+  .go-back {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .go-back:hover {
+    background-color: #45a049;
+  }
+  @media screen and (max-width:965px) {
+    .LoanStatuswrapper{
+      height: 77vh;
+    }
+    .LoanStausContainer{
+      width: 98%;
+     }
+     th, td {
+      border: 2px solid #441717;
+      padding: 4px;
+      text-align: left;
+    
+    }
+}

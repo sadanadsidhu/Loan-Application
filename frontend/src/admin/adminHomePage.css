@@ -1,0 +1,51 @@
+.admin{
+  margin: 80px 80px 80px 80px;
+  background-color: red;
+}
+/* body{
+  background-color: green;
+} */
+.adminhome{
+  display: flex;
+  justify-content: center;
+  
+}
+/* Style for the table */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: green;
+}
+
+/* Style for the table header */
+thead {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+/* Style for table header cells */
+th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* Style for table data cells */
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* Style for the heading */
+h2 {
+  color: #333;
+}
+.approved-button{
+  background-color: blue;
+  margin-right: 20px;
+}

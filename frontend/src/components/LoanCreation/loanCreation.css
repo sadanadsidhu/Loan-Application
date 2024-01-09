@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+    .LoanCreationwrapper{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      background:linear-gradient(to right, rgb(64, 215, 239), rgb(4, 198, 195));
+    }
+    .LoanCreationContainer{
+      height: 80%;
+      padding:auto;
+      width: 50%;
+      margin-top: 4%;
+      padding: 15% 18%;
+      box-shadow: 6px 3px 7px rgba(69, 68, 68, 0.733);
+      
+    }
+    
+  
+     @media screen and (max-width:965px) {
+      .LoanCreationContainer{
+        height: 80%;
+        padding:auto;
+        width: 35%;
+        margin-top: 20px;
+        padding: 18% 10%;
+        box-shadow: 6px 3px 7px rgba(69, 68, 68, 0.733);
+        
+      }
+    } 
+    @media screen and (max-width:500px) {
+      .LoanCreationContainer{
+        height: 80%;
+        padding:auto;
+        /* width: 40%; */
+        margin-top: 4%;
+        padding: 40% 2%;
+        box-shadow: 6px 3px 7px rgba(69, 68, 68, 0.733);
+        
+      }
+    } 
